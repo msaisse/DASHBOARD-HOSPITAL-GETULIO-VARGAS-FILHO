@@ -1,4 +1,7 @@
-
+#Este arquivo define todas as regras visuais e 
+#comportamentais do diagrama de fluxo de pacientes: 
+#aparência, interação, cores, tamanhos, zoom, seleção e rótulos.
+    
 // Cores do tema
 import * as vNG from "v-network-graph"
 
