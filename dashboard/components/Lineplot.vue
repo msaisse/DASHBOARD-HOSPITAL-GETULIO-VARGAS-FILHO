@@ -1,3 +1,7 @@
+#Este componente mostra como o tempo médio de atendimento e o volume de pacientes 
+#evoluem ao longo do tempo para um trecho específico do fluxo assistencial, permitindo
+#análise histórica, comparação e monitoramento de desempenho.
+
 <template>
   <v-container>
    <h3>Evolução do Tempo</h3>
