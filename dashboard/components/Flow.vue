@@ -1,3 +1,7 @@
+#Componente central do diagrama de fluxo de pacientes do dashboard.
+#Responsável por desenhar visualmente o fluxo assistencial (nós + conexões),
+#aplicar estilos, mostrar métricas nos nós e arestas e emitir eventos quando o usuário interage.
+
 <template>
   <div class="demo-control-panel">
     <el-tabs type="border-card">
