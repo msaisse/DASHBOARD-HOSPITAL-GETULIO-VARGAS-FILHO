@@ -1,3 +1,11 @@
+#O Vuetify é o framework de interface que fornece a base visual e estrutural da aplicação,
+#Oferecendo componentes prontos (como grids, cards, botões, diálogos, filtros e layouts responsivos), 
+#além de um sistema centralizado de temas, cores, tipografia e acessibilidade. 
+#No contexto do dashboard de fluxo hospitalar, ele garante consistência visual, 
+#padronização da experiência do usuário e rapidez no desenvolvimento,
+#permitindo que os dados e métricas produzidos pelo ETL sejam apresentados de forma clara, 
+#confiável e profissional, sem que cada tela precise reinventar regras de layout ou estilo.
+
 import { createVuetify } from 'vuetify'
 import { pt } from 'vuetify/locale'
 import * as components from 'vuetify/components'
