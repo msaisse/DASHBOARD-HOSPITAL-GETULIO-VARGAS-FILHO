@@ -1,2 +1,6 @@
+#O arquivo robots.txt indica que não há restrições de acesso para robôs de busca, 
+#sendo um artefato padrão de aplicações web, sem impacto funcional ou de segurança 
+#sobre o sistema de dashboards.
+
 User-Agent: *
 Disallow:
