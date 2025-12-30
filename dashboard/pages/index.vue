@@ -1,3 +1,12 @@
+#página principal do dashboard de fluxo hospitalar
+#É o que o usuário realmente “abre no navegador”.
+#Integra filtros, diagrama de fluxo e visualizações analíticas, coordenando a busca 
+#de dados e a interação do usuário para análise do fluxo de pacientes na #emergência.
+#Ela não calcula, não desenha gráficos diretamente, mas coordena tudo.
+
+
+
+
 <template>
   <v-container>
     <v-container>
