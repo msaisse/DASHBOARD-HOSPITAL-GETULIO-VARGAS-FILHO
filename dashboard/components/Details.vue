@@ -1,3 +1,7 @@
+#Esse componente mostra, para um ponto do fluxo de pacientes selecionado, 
+#o total de eventos e um detalhamento dos principais atributos 
+#de início e fim daquele trecho do fluxo, com opção de visualizar todos os detalhes em um modal.
+
 <template>
   <div>
     <div class="d-flex flex-column justify-space-between" style="height: 400px; gap: 16px;">
