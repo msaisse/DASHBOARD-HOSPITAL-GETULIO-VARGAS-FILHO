@@ -1,3 +1,8 @@
+Esse arquivo é um Docker Compose (versão 3.8).
+Ele define quais serviços existem, como são construídos, como se comunicam e quais variáveis de ambiente usam.
+
+👉 Pense nele como o “mapa de implantação” do sistema.
+
 version: '3.8'
 
 x-airflow-common:
@@ -146,3 +151,4 @@ services:
 networks:
   main:
     driver: bridge
+
