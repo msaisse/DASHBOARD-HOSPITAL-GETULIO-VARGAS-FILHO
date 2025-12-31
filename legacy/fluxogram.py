@@ -1,3 +1,7 @@
+#Este arquivo é um diagrama conceitual do fluxo de atendimento hospitalar,
+#escrito em DOT/Graphviz. Ele não é utilizado em tempo de execução pelo
+#sistema, servindo exclusivamente como documentação visual e refer
+
 from graphviz import Digraph, Source
 import psycopg2
 import os
