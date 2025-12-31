@@ -1,3 +1,9 @@
+#arquivo central de configuração da aplicação Nuxt (front-end).
+#Ele define como o dashboard é construído, executado e integrado ao back
+#Configura globalmente o front-end do dashboard, definindo estilos,
+#bibliotecas, ambiente de execução, servidor de desenvolvimento e 
+#integração com o backend (PostgREST).
+
 import fs from 'fs'
 
 
