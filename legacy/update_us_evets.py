@@ -1,3 +1,18 @@
+#Esse arquivo representa a primeira geração do pipeline de eventos do sistema.
+
+#Ele implementa, em código “na unha”, aquilo que hoje o seu 
+#sistema faz de forma modular, declarativa e orquestrada:
+
+#Antigo (esse script)	Atual (arquitetura do projeto)
+#Script único	Airflow DAGs
+#psycopg2 direto	SQLAlchemy + PostgresHook
+#Código procedural	EventCalculators por evento
+#Tabela us_events	Tabela events
+#Partições manuais	Partman + manutenção automática
+#Execução manual / cron	Orquestração controlada
+#Sem reprocessamento fácil	DAG de reprocessamento
+#Sem separação clara de responsabilidades	Ingestão / Eventos / Deltas
+
 #imports + config
 import psycopg2
 import pandas as pd
